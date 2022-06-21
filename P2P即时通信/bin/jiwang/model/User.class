@@ -1,0 +1,13 @@
+Êþº¾   4 7  yyj/model/User  java/lang/Object name Ljava/lang/String; ipAddr <init> (Ljava/lang/String;)V Code
+     ()V  %
+    java/lang/String   split '(Ljava/lang/String;)[Ljava/lang/String;	    	     LineNumberTable LocalVariableTable this Lyyj/model/User; userDescription items [Ljava/lang/String; '(Ljava/lang/String;Ljava/lang/String;)V getName ()Ljava/lang/String; 	getIpAddr description ' java/lang/StringBuilder
+  ) * + valueOf &(Ljava/lang/Object;)Ljava/lang/String;
+ & -  	
+ & / 0 1 append -(Ljava/lang/String;)Ljava/lang/StringBuilder;
+ & 3 4 # toString 
+SourceFile 	User.java !                   	  
+   h     *? +? M*,2? *,2? ?                                               !  
+   Y     *? *+? *,? ?              	                              " #  
+   /     *? ?                         $ #  
+   /     *? ?                         % #  
+   H     ? &Y*? ? (? ,? .*? ? .? 2?           !              5    6
